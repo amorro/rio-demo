@@ -9,7 +9,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	time.Sleep(1000 * time.Millisecond)
-	fmt.Fprintln(w, "Hi there, I am rio")
+	fmt.Fprintln(w, "Hi there, I am rio version y ruketa apruba base de datos")
 }
 
 func main() {
